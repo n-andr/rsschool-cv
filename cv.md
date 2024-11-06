@@ -1,6 +1,6 @@
 # Natalia Andreeva  
 Berlin, Germany  
-[GitHub Profile Link] | [LinkedIn Profile Link]
+[GitHub Profile Link](https://github.com/n-andr) | [LinkedIn Profile Link](https://www.linkedin.com/in/natalia-andreeva-bb313821a/)
 
 ---
 
@@ -24,8 +24,8 @@ Aspiring Junior Developer currently studying at 42 Berlin, passionate about back
 ## Code Examples
 
 - **42 School Projects**  
-  - [Libft - Custom C Library](https://github.com/yourusername/libft): A custom library replicating essential C standard library functions, built as part of the 42 curriculum.
-  - [42 Minishell](https://github.com/yourusername/minishell): Developed a Shell program as a collaborative project, implementing basic shell features like command parsing, execution, and error handling.
+  - [42 Minishell](https://github.com/n-andr/minishell): Developed a Shell program as a collaborative project, implementing basic shell features like command parsing, execution, and error handling.
+  - [42 Push Swap](https://github.com/n-andr/push_swap): Created an algorithm to sort a stack of integers with minimal moves using two stacks and a limited set of operations. This project involved implementing efficient sorting algorithms and optimizing for performance, as well as rigorous testing of edge cases.
 
 - **Personal Projects**  
  tba
