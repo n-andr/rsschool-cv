@@ -1,0 +1,60 @@
+/* Reset default browser styles */
+body, h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+/* Set a default font and background color */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+/* Style the header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Style the main content */
+main {
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the heading */
+h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+/* Style the paragraph */
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+/* Style a link */
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+/* Style a form input */
+input {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/* Style an image */
+img {
+	max-width: 100%;
+	height: auto;
+}
