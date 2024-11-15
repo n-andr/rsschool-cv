@@ -1,114 +1,94 @@
-/* General reset */
+/* General Reset */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-  }
-  
-  body {
-	font-family: Arial, sans-serif;
-	background-color: #f5f5f5;
-	color: #333;
-  }
-  
-  /* Container */
-  .container {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 1200px;
-	margin: 0 auto;
-  }
-  
-  /* Sidebar */
-  .sidebar {
-	background-color: #2b3a55;
-	color: #ffffff;
-	padding: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+/* Layout */
+header {
+    background-color: #104bb3;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 800px;
 	width: 100%;
-	max-width: 300px;
-  }
-  
-  .profile {
-	text-align: center;
-	margin-bottom: 20px;
-  }
-  
-  .profile-pic {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background-color: #ccc;
-	display: block;
-	margin: 0 auto 10px;
-  }
-  
-  .profile h1 {
-	font-size: 1.5em;
-	margin-bottom: 5px;
-  }
-  
-  .contact-info p,
-  .section ul,
-  .section p {
-	background: #3e5069;
-	padding: 10px;
-	border-radius: 5px;
-	margin: 5px 0;
-  }
-  
-  .section h2 {
-	margin-top: 20px;
-	font-size: 1.2em;
-  }
-  
-  .section ul {
-	list-style-type: disc;
-	padding-left: 20px;
-  }
-  
-  .links p a {
-	color: #ffffff;
-	text-decoration: none;
-  }
-  
-  /* Main Content */
-  .main-content {
-	flex: 1;
-	padding: 20px;
-  }
-  
-  .main-content h2 {
-	font-size: 1.5em;
-	margin: 20px 0 10px;
-	color: #2b3a55;
-  }
-  
-  .main-content .item p {
-	margin: 5px 0;
-  }
-  
-  .main-content .item strong {
-	font-weight: bold;
-  }
-  
-  .about p,
-  .education .item p,
-  .experience .item p,
-  .volunteer .item p {
-	line-height: 1.5;
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
 	margin-bottom: 10px;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-	.container {
-	  flex-direction: column;
-	}
-  
-	.sidebar,
-	.main-content {
-	  width: 100%;
-	  max-width: 100%;
-	}
-  }
-  
+}
+
+section ul {
+	padding-left: 30px;
+}
+
+section li {
+	margin-bottom: 10px;
+}
+footer {
+    background-color: #104bb3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+}
