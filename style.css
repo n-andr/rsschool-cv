@@ -20,6 +20,10 @@ header {
     text-align: center;
 }
 
+header img {
+	height: 200px;
+	vertical-align: middle;
+}
 header h1 {
     font-size: 2rem;
 }
@@ -68,6 +72,22 @@ section ul {
 
 section li {
 	margin-bottom: 10px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Ensures horizontal scrolling for long code */
+    font-size: 0.9rem;
+    line-height: 1.5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+code {
+   display: block;
 }
 footer {
     background-color: #104bb3;
