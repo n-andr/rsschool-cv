@@ -1,2 +1,3 @@
 # rsschool-cv
-[https://github.com/n-andr/rsschool-cv/gh-pages/cv](https://github.com/n-andr/rsschool-cv/blob/gh-pages/cv.md)
+[https://n-andr.github.io/rsschool-cv/cv](https://n-andr.github.io/rsschool-cv/cv)
+[https://n-andr.github.io/rsschool-cv/](https://n-andr.github.io/rsschool-cv/)
